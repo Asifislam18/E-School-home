@@ -1,0 +1,964 @@
+/* Responsive css code goes here */
+
+/* 
+  Most of the low resoulation mobile devices like: Galaxy Fold
+*/
+@media (min-width: 279px) and (max-width: 319px){
+.container{
+    width: 100%;
+    margin: 0px 15px;
+}
+
+.navbar-toggler-icon {
+    width: 0.9em;
+    height: 1.4em;
+}
+.navbar-toggler {
+    padding: 0.15rem 0.6rem;
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active {
+    margin-top: 10px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+    margin: 0px 0px 0px 5px;
+}
+.main-menu .btn-success{
+    padding: 7px 22px;
+    font-size: 15px;
+    margin: 15px 0px 0px 0px;
+}
+.banner{
+    padding: 30px 0px 60px;
+}
+.banner h1{
+     font-size: 30px;
+     line-height: 40px;
+}
+.banner p{
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 500;   
+}
+.banner .btn-success{
+    padding: 9px 12px;
+    font-size: 12px;
+    margin: 5px 0px 40px;
+}
+.feature{
+    padding: 40px 0px;
+}
+.inner-feature{
+    margin-bottom: 20px;
+}
+.courses h2 {
+    font-size: 26px;
+    line-height: 36px;
+    margin: 0px 0px 30px;
+}
+.courses .card {
+    width: 100%;
+    padding: 20px;
+    margin: 0px 0px 15px 0px;
+    
+}
+.courses .card-body h5 {
+    font-size: 21px;
+    line-height: 31px;
+ }
+.courses .card .card-body p {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0px 0px 10px;
+ }
+.courses .card .card-body .btn-success {
+    padding: 7px 12px;
+    font-size: 14px;
+    margin: 10px 0px 0px;
+}
+.courses .card .card-body .desc {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #585859;
+    margin: 20px 0px 0px;
+ }
+ .Courses .card .card-body .can{
+    width: 20px;
+    margin: -5px 0px 0px;
+}
+.testimonial{
+    padding: 40px 0px 50px;
+}
+.testimonial h2{
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0px 0px 40px;
+}
+.testimonial .img-round{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+.testimonial p{
+    font-size: 8px;
+    line-height: 18px;
+    font-weight: 600;
+    margin: 0px;
+}
+.footer-widget{
+    padding: 0px 0px 30px;
+}
+.footer-widget p{
+    font-size: 11px;
+    line-height: 21px;
+}
+.footer-widget h6{
+    margin: 10px 0px 5px;
+}
+.footer-widget ul a{
+    font-size: 12px;
+    line-height: 22px;
+    margin: 0px 0px 2px;
+}
+.copyright p{
+    font-size: 14px;
+    line-height: 24px;
+}
+}
+
+
+/*
+   most of the mobile mobile devices 
+*/
+ @media (min-width: 320px) and (max-width: 480px){
+    /*code start*/
+    .header{
+    width: 100%;
+    background: #F0FFF0;
+}
+.main-menu{
+    width: 100%;
+}
+.main-menu .logo{
+    width: 150px;
+}
+.main-menu .bg-light{
+    background: transparent !important;
+}
+.main-menu .navbar-nav .nav-link.active{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 16px;
+    margin: 0px 0px 0px 25px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover,.main-menu .navbar-light .navbar-nav
+.nav-link:focus{
+    color: #000;
+    font-weight: 600;
+}
+.main-menu .btn-success{
+    padding: 8px 25px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 0px 0px 32px;
+    background: #21B573;
+    color: #fff;
+    border: 1px solid #21B573;
+
+}
+.main-menu .btn-success:hover, .main-menu .btn-success:focus{
+      background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner h5{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FD511A;
+}
+.banner h1{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #000;
+    margin: 0px 0px 20px;
+
+}
+.banner span{
+    color: #21B573;
+
+}
+.banner p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+
+}
+.banner .btn-success{
+   padding: 9px 20px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0px 0px;
+    background: #21B573;
+    color: #fff;
+
+}
+.banner .btn-success:hover, .banner .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+}
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-feature{
+    width: 100%;
+    padding: 40px;
+    margin: 0px 0px 20px;
+    text-align: center;
+    background: #F8FFFB;
+}
+.inner-feature img{
+    width: 68px;
+    height: 85px;
+    margin: 0px 0px 20px;
+}
+.inner-feature h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color:#413960;
+    margin: 0px;
+}
+.inner-feature p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #585859;
+    margin: 0px 0px;
+}
+.inner-feature:hover, .inner-feature:focus{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.Courses{
+    width: 100%;
+    padding: 80px 0px;
+}
+.Courses h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #413960;
+    margin: 0px 0px 50px;
+    text-align: center;
+
+}
+.Courses .card{
+    width: 100%;
+    padding: 20px;
+    margin: 0px 0px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    border: 0px;
+
+}
+.Courses .card .card-body{
+    padding: 15px 0px;
+
+}
+.Courses .card .card-body h5{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color:#413960;
+    margin: 0px;
+
+}
+.Courses .card .card-body p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #585859;
+    margin: 0px 0px 15px;
+
+}
+.Courses .card .card-body .btn-success{
+    padding: 10px 25px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0px 20px;
+    background: #21B573; 
+    color: #fff;
+    border: 1px solid #21B573;
+}
+.Courses .card .btn-success:hover, .Courses .card .card-body .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+}
+.Courses .card .card-body .desc{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #585859;
+    margin: 20px 0px 0px;
+
+}
+.Courses .card .card-body .can{
+    width: 18px;
+    margin: -5px 0px 0px;
+}
+.Courses .card .card-body .peo{
+    width: 18px;
+    margin: -5px 0px 0px;
+
+}
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+}
+.testimonial h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #413960;
+    margin: 0px 0px 50px;
+    text-align: center;
+
+}
+.testimonial .img-round{
+    width: 80px;
+    height: 90px;
+    border-radius: 100%;
+}
+.testimonial p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #585859;
+    margin: 12px 0px 0px;
+}
+.footer{
+    width: 100%;
+    padding: 60px 0px 30px;
+    background: #282531;
+}
+.footer-widget{
+    width: 100%;
+    padding: 0px 0px 80px;  
+}
+.footer-widget p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+}
+.footer-widget h6{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    margin: 0px 0px 5px;
+}
+.footer-widget ul{
+    padding: 0px;
+}
+.footer-widget ul li{
+    list-style: none;
+}
+.footer-widget ul a{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    margin: 0px 0px 5px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+}
+.copyright p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #CDCDCD;
+    margin: 0px;
+}
+
+      /*code end*/
+}
+
+
+/*
+  most of the mobile devices, low resoulation Tablet, Ipad.
+*/
+@media (min-width: 481px) and (max-width: 767px){
+   
+/*code start*/
+ .header{
+    width: 100%;
+    background: #F0FFF0;
+}
+.main-menu{
+    width: 100%;
+}
+.main-menu .logo{
+    width: 150px;
+}
+.main-menu .bg-light{
+    background: transparent !important;
+}
+.main-menu .navbar-nav .nav-link.active{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 16px;
+    margin: 0px 0px 0px 25px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover,.main-menu .navbar-light .navbar-nav
+.nav-link:focus{
+    color: #000;
+    font-weight: 600;
+}
+.main-menu .btn-success{
+    padding: 8px 25px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 0px 0px 32px;
+    background: #21B573;
+    color: #fff;
+    border: 1px solid #21B573;
+
+}
+.main-menu .btn-success:hover, .main-menu .btn-success:focus{
+      background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner h5{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FD511A;
+}
+.banner h1{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #000;
+    margin: 0px 0px 20px;
+
+}
+.banner span{
+    color: #21B573;
+
+}
+.banner p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+
+}
+.banner .btn-success{
+   padding: 9px 20px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0px 0px;
+    background: #21B573;
+    color: #fff;
+
+}
+.banner .btn-success:hover, .banner .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+}
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-feature{
+    width: 100%;
+    padding: 40px;
+    margin: 0px 0px 20px;
+    text-align: center;
+    background: #F8FFFB;
+}
+.inner-feature img{
+    width: 68px;
+    height: 85px;
+    margin: 0px 0px 20px;
+}
+.inner-feature h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color:#413960;
+    margin: 0px;
+}
+.inner-feature p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #585859;
+    margin: 0px 0px;
+}
+.inner-feature:hover, .inner-feature:focus{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.Courses{
+    width: 100%;
+    padding: 80px 0px;
+}
+.Courses h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #413960;
+    margin: 0px 0px 50px;
+    text-align: center;
+
+}
+.Courses .card{
+    width: 100%;
+    padding: 20px;
+    margin: 0px 0px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    border: 0px;
+
+}
+.Courses .card .card-body{
+    padding: 15px 0px;
+
+}
+.Courses .card .card-body h5{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color:#413960;
+    margin: 0px;
+
+}
+.Courses .card .card-body p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #585859;
+    margin: 0px 0px 15px;
+
+}
+.Courses .card .card-body .btn-success{
+    padding: 10px 25px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0px 20px;
+    background: #21B573; 
+    color: #fff;
+    border: 1px solid #21B573;
+}
+.Courses .card .btn-success:hover, .Courses .card .card-body .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+}
+.Courses .card .card-body .desc{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #585859;
+    margin: 20px 0px 0px;
+
+}
+.Courses .card .card-body .can{
+    width: 18px;
+    margin: -5px 0px 0px;
+}
+.Courses .card .card-body .peo{
+    width: 18px;
+    margin: -5px 0px 0px;
+
+}
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+}
+.testimonial h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #413960;
+    margin: 0px 0px 50px;
+    text-align: center;
+
+}
+.testimonial .img-round{
+    width: 131px;
+    height: 131px;
+    border-radius: 100%;
+}
+.testimonial p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #585859;
+    margin: 12px 0px 0px;
+}
+.footer{
+    width: 100%;
+    padding: 60px 0px 30px;
+    background: #282531;
+}
+.footer-widget{
+    width: 100%;
+    padding: 0px 0px 80px;  
+}
+.footer-widget p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+.footer-widget h6{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    margin: 0px 0px 5px;
+}
+.footer-widget ul{
+    padding: 0px;
+}
+.footer-widget ul li{
+    list-style: none;
+}
+.footer-widget ul a{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    margin: 0px 0px 5px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+}
+.copyright p{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #CDCDCD;
+    margin: 0px;
+}
+
+/*code end*/
+}
+
+/*
+  most of the mini ipad, mini notebook , teblet
+*/
+@media (min-width: 768px) and (max-width: 992px) {
+
+    /*code start*/
+    .header{
+    width: 100%;
+    background: #F0FFF0;
+}
+.main-menu{
+    width: 100%;
+}
+.main-menu .logo{
+    width: 150px;
+}
+.main-menu .bg-light{
+    background: transparent !important;
+}
+.main-menu .navbar-nav .nav-link.active{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 16px;
+    margin: 0px 0px 0px 25px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover,.main-menu .navbar-light .navbar-nav
+.nav-link:focus{
+    color: #000;
+    font-weight: 600;
+}
+.main-menu .btn-success{
+    padding: 8px 25px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 0px 0px 32px;
+    background: #21B573;
+    color: #fff;
+    border: 1px solid #21B573;
+
+}
+.main-menu .btn-success:hover, .main-menu .btn-success:focus{
+      background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner h5{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FD511A;
+}
+.banner h1{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #000;
+    margin: 0px 0px 20px;
+
+}
+.banner span{
+    color: #21B573;
+
+}
+.banner p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+
+}
+.banner .btn-success{
+   padding: 9px 20px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0px 0px;
+    background: #21B573;
+    color: #fff;
+
+}
+.banner .btn-success:hover, .banner .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+}
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-feature{
+    width: 100%;
+    padding: 40px;
+    margin: 0px 0px 20px;
+    text-align: center;
+    background: #F8FFFB;
+}
+.inner-feature img{
+    width: 68px;
+    height: 85px;
+    margin: 0px 0px 20px;
+}
+.inner-feature h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color:#413960;
+    margin: 0px;
+}
+.inner-feature p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #585859;
+    margin: 0px 0px;
+}
+.inner-feature:hover, .inner-feature:focus{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.Courses{
+    width: 100%;
+    padding: 80px 0px;
+}
+.Courses h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #413960;
+    margin: 0px 0px 50px;
+    text-align: center;
+
+}
+.Courses .card{
+    width: 100%;
+    padding: 20px;
+    margin: 0px 0px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    border: 0px;
+
+}
+.Courses .card .card-body{
+    padding: 15px 0px;
+
+}
+.Courses .card .card-body h5{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color:#413960;
+    margin: 0px;
+
+}
+.Courses .card .card-body p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #585859;
+    margin: 0px 0px 15px;
+
+}
+.Courses .card .card-body .btn-success{
+    padding: 10px 25px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0px 20px;
+    background: #21B573; 
+    color: #fff;
+    border: 1px solid #21B573;
+}
+.Courses .card .btn-success:hover, .Courses .card .card-body .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+}
+.Courses .card .card-body .desc{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #585859;
+    margin: 20px 0px 0px;
+
+}
+.Courses .card .card-body .can{
+    width: 18px;
+    margin: -5px 0px 0px;
+}
+.Courses .card .card-body .peo{
+    width: 18px;
+    margin: -5px 0px 0px;
+
+}
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+}
+.testimonial h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #413960;
+    margin: 0px 0px 50px;
+    text-align: center;
+
+}
+.testimonial .img-round{
+    width: 131px;
+    height: 131px;
+    border-radius: 100%;
+}
+.testimonial p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #585859;
+    margin: 12px 0px 0px;
+}
+.footer{
+    width: 100%;
+    padding: 60px 0px 30px;
+    background: #282531;
+}
+.footer-widget{
+    width: 100%;
+    padding: 0px 0px 80px;  
+}
+.footer-widget p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+.footer-widget h6{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    margin: 0px 0px 5px;
+}
+.footer-widget ul{
+    padding: 0px;
+}
+.footer-widget ul li{
+    list-style: none;
+}
+.footer-widget ul a{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    margin: 0px 0px 5px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+}
+.copyright p{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #CDCDCD;
+    margin: 0px;
+}
+     /*code end*/
+} 
